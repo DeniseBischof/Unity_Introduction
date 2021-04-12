@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
+        //Cursor.visible = true;
     }
 
     void Update()
